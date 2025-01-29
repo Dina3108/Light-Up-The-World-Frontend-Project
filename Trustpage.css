@@ -1,0 +1,174 @@
+body {
+  object-position: cover;
+  padding-top: 80px;
+  background-color: white;
+  background-image: url(Files/butterfly-seamless-repeat-pattern-background-vector.jpg);
+}
+.header {
+  position: fixed;
+  background-color: white;
+  border-bottom: solid 1.5px black;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-div {
+  display: flex;
+  align-items: center;
+}
+.logo-img {
+  height: 50px;
+  display: inline-block;
+  margin-left: 15px;
+}
+.logo-p {
+  margin-left: 10px;
+  font-family: salsa, Rubik Doodle Shadow, arial;
+  color: #0c9c89;
+  font-size: 20px;
+}
+.filter {
+  border: solid 1.5px black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-family: acme, Squada One, arial;
+  transition: color, background-color 0.2s;
+  font-size: 18px;
+  margin-right: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.filter:hover {
+  background-color: black;
+  color: white;
+}
+.state-hover-div {
+  position: absolute;
+  border: solid 1px black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 12px;
+  opacity: 0;
+}
+.filter:hover .state-hover-div {
+  opacity: 1;
+  background-color: white;
+  color: black;
+}
+.trusts-collection-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 50px;
+  margin-left: 50px;
+}
+.Trust-1-div {
+  border: solid 2px gray;
+  width: 500px;
+  height: 430px;
+  border-radius: 20px;
+  background-color: white;
+}
+.trust-1-img {
+  width: 500px;
+  margin-top: 0;
+  height: 250px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.trust-name {
+  display: block;
+  text-align: center;
+  font-size: 23px;
+  font-family: acme, Squada One, arial;
+  margin-top: 3px;
+  margin-bottom: 0;
+  color: rgba(2, 24, 1, 0.904);
+}
+.location-div {
+  display: flex;
+  justify-content: space-between;
+}
+.location-2nd-div {
+  display: flex;
+  align-items: center;
+}
+.Coimbatore-img {
+  height: 25px;
+  width: 25px;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+.location {
+  margin-left: 5px;
+  font-family: Squada One, arial;
+  color: darkolivegreen;
+}
+.details-click-p {
+  font-size: 18px;
+  font-family: acme, Squada One, arial;
+  color: rgb(9, 253, 1);
+  cursor: pointer;
+}
+.People-count {
+  margin-right: 10px;
+  font-family: acme, Squada One, arial;
+  color: rgb(252, 92, 18);
+}
+.button1-div {
+  display: flex;
+  justify-content: space-between;
+}
+.share-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+.share-button {
+  text-align: center;
+  font-size: 18px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 25px;
+  font-weight: 600;
+  font-family: acme, Squada One, arial;
+  transition: color, background-color 0.2s;
+  cursor: pointer;
+}
+.share-button:hover {
+  color: white;
+  background-color: black;
+}
+.share-p {
+  display: inline-block;
+}
+.donate-button {
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  margin-right: 25px;
+  font-weight: 600;
+  font-family: acme, Squada One, arial;
+  transition: color, background-color 0.2s;
+}
+.donate-button:hover {
+  color: white;
+  background-color: black;
+}

@@ -1,0 +1,87 @@
+body {
+  background-color: rgba(245, 212, 212, 0.667);
+  background-image: url(Files/2c0a5dea5534f2ad0e84f8528433e04b.jpg);
+}
+
+.main {
+  display: flex;
+}
+
+.main-img-div {
+  display: inline-block;
+}
+.main-img {
+  height: 600px;
+  width: 500px;
+  margin-top: 0;
+  display: inline-block;
+}
+.right-section {
+  flex: 1;
+}
+.money-div {
+  display: flex;
+}
+.money-box {
+  display: inline-block;
+  height: 30px;
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 30px;
+  border: solid 2px rgb(23, 22, 22);
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 15px;
+}
+.money-img {
+  height: 50px;
+  margin: 20px;
+}
+.donate-via {
+  margin-left: 50px;
+  margin-top: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: rgb(95, 95, 95);
+}
+.upi-p {
+  color: black;
+}
+.phonepe-div {
+  margin: 30px;
+  margin-left: 50px;
+  margin-top: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+.phonepe-img {
+  height: 50px;
+  cursor: pointer;
+}
+.phonepe-p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  color: rgb(95, 95, 95);
+  text-align: center;
+  cursor: pointer;
+}
+.donate-bottom-button {
+  display: block;
+  margin-left: 200px;
+  padding: 20px 40px 20px 40px;
+  font-size: 23px;
+  border-radius: 50px;
+  font-family: mali, arial;
+  color: black;
+  background-color: white;
+  font-family: salsa, arial;
+  transition: background-color, color 0.5s;
+}
+.donate-bottom-button:hover {
+  background-color: black;
+  color: white;
+  font-weight: 400;
+}
+.donate-bottom-button:active {
+  padding: 21px 40px 21px 40px;
+}

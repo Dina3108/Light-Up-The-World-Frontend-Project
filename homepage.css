@@ -1,0 +1,179 @@
+body {
+  background-color: #f7f7f7;
+  padding-top: 70px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+button {
+  cursor: pointer;
+  box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+  display: flex;
+  background-color: rgba(222, 241, 71, 0.178);
+  z-index: 100;
+}
+.left-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.logo-div {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.logo-img {
+  height: 50px;
+  display: inline-block;
+  margin-left: 15px;
+}
+.logo-p {
+  margin-left: 10px;
+  font-family: salsa, Rubik Doodle Shadow, arial;
+  color: #0c9c89;
+  font-size: 20px;
+}
+.home {
+  font-size: 20px;
+  width: 120px;
+  padding-left: 25px;
+  font-family: mali, arial;
+  color: #ba0f3d;
+  font-weight: 700;
+  cursor: pointer;
+}
+.about {
+  font-size: 20px;
+  width: 120px;
+  padding-left: 25px;
+  font-family: mali, arial;
+  color: #ba0f3d;
+  font-weight: 700;
+  cursor: pointer;
+}
+.right-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.donate-top-button {
+  padding: 10px 20px 10px 20px;
+  margin-left: 5px;
+  font-size: 15px;
+  border-radius: 50px;
+  font-family: mali, arial;
+  color: #ba0f3d;
+  background-color: rgba(222, 241, 71, 0.178);
+  font-weight: 500;
+  border: solid 2px gray;
+  transition: background-color, color 0.25s;
+}
+.donate-top-button:hover {
+  background-color: #ba0f3d;
+  color: rgba(221, 241, 71, 0.984);
+}
+.donate-top-button:active {
+  padding: 11px 20px 11px 20px;
+}
+.last-header-p {
+  margin-top: 0;
+  font-size: 15px;
+  padding-left: 35px;
+  font-family: mali, arial;
+  color: #ba0f3d;
+  font-weight: 700;
+  margin-right: 0;
+  text-align: end;
+  cursor: pointer;
+}
+.last-header-img {
+  height: 50px;
+  display: inline-block;
+}
+.title {
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  color: #0c9c89;
+  font-family: salsa, Rubik Doodle Shadow, arial;
+  font-weight: 550;
+}
+.title-img {
+  margin-top: -10px;
+  width: 100px;
+  height: 100px;
+}
+.body-div {
+  display: flex;
+  align-items: center;
+}
+video {
+  height: 400px;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 15px;
+  display: inline-block;
+}
+.sub-title {
+  flex: 1;
+}
+.sub-1-div {
+  display: flex;
+}
+.sub-title-p {
+  font-size: 28px;
+  margin-left: 20px;
+  font-family: kavoon, Square Peg, arial;
+  color: rgb(230, 146, 43);
+  margin-bottom: 25px;
+}
+.tears-img {
+  height: 80px;
+  margin-left: 0;
+}
+.down-div {
+  border: solid 2px gray;
+  background-color: #f8f86dd5;
+  border-radius: 10px;
+}
+.sub-title-p2 {
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: Patrick Hand SC, Square Peg, arial;
+  color: rgb(71, 230, 43);
+}
+.sub-title-p3 {
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: Patrick Hand SC, Square Peg, arial;
+  color: rgb(71, 230, 43);
+}
+.donate-button {
+  flex: 1;
+  margin-top: 20px;
+  margin-left: 130px;
+  padding: 20px 40px 20px 40px;
+  font-size: 23px;
+  border-radius: 50px;
+  font-family: mali, arial;
+  color: #ba0f3d;
+  background-color: rgb(52, 240, 221);
+  transition: background-color, color 0.25s;
+}
+.donate-button:hover {
+  background-color: #ba0f3d;
+  color: rgb(52, 240, 221);
+  font-weight: 400;
+}
+.donate-button:active {
+  padding: 21px 40px 21px 40px;
+}
